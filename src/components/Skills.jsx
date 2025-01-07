@@ -1,69 +1,80 @@
 import { motion } from "framer-motion";
+import IllustratorLogo from '../assets/ImgTools/Icon_Adobe_Illustrator.png';
+import IndesignLogo from '../assets/ImgTools/Icon_Adobe_Indesign.png';
+import PhotoshopLogo from '../assets/ImgTools/Icon_Adobe_Photoshop.png';
+import BootstrapLogo from '../assets/ImgTools/Icon_Bootstrap.png';
+import CanvaLogo from '../assets/ImgTools/Icon_Canva.png';
+import CorelDrawLogo from '../assets/ImgTools/Icon_CorelDraw.png';
+import FigmaLogo from '../assets/ImgTools/Icon_Figma.png';
+import HTMLLogo from '../assets/ImgTools/Icon_HTML.png';
+import JavaScriptLogo from '../assets/ImgTools/Icon_JavaScript.png';
+import NextJSLogo from '../assets/ImgTools/Icon_NextJS.png';
+import ReactLogo from '../assets/ImgTools/Icon_React.png';
+import TailwindLogo from '../assets/ImgTools/Icon_Tailwind.png';
+import TypeScriptLogo from '../assets/ImgTools/Icon_TypeScript.png';
+import WordPressLogo from '../assets/ImgTools/Icon_Wordpress.png';
+import CSSLogo from '../assets/ImgTools/Icon_CSS.png';
 
 const tools = [
   {
     title: "HTML",
-    image: "src/assets/ImgTools/Icon_HTML.png",
+    image: HTMLLogo,
   },
   {
     title: "CSS",
-    image: "src/assets/ImgTools/Icon_CSS.png",
+    image: CSSLogo,
   },
   {
     title: "TypeScript",
-    image: "src/assets/ImgTools/Icon_TypeScript.png",
+    image: TypeScriptLogo,
   },
   {
     title: "JavaScript",
-    image: "src/assets/ImgTools/Icon_JavaScript.png",
+    image: JavaScriptLogo,
   },
   {
     title: "React",
-    image: "src/assets/ImgTools/Icon_React.png",
+    image: ReactLogo,
   },
   {
     title: "Next.js",
-    image: "src/assets/ImgTools/Icon_NextJS.png",
+    image:  NextJSLogo,
   },
   {
     title: "Tailwind CSS",
-    image: "src/assets/ImgTools/Icon_Tailwind.png",
+    image:  TailwindLogo,
   },
   {
     title: "Bootstrap",
-    image: "src/assets/ImgTools/Icon_Bootstrap.png",
+    image:  BootstrapLogo,
   },
   {
     title: "WordPress",
-    image: "src/assets/ImgTools/Icon_Wordpress.png",
+    image:  WordPressLogo,
   },
   {
     title: "Figma",
-    image: "src/assets/ImgTools/Icon_Figma.png",
-  },
-  {
-    title: "Adobe XD",
-    image: "src/assets/ImgTools/Icon_AdobeXD.png",
+    image:  FigmaLogo,
   },
   {
     title: "Photoshop",
-    image: "src/assets/ImgTools/Icon_Adobe_Photoshop.png",
+    image:  PhotoshopLogo,
   },
   {
     title: "Illustrator",
-    image: "src/assets/ImgTools/Icon_Adobe_Illustrator.png",
+    image:  IllustratorLogo,
   },
   {
     title: "InDesign",
-    image: "src/assets/ImgTools/Icon_Adobe_Indesign.png",
+    image:  IndesignLogo,
   },
   {
     title: "CorelDraw",
-    image: "src/assets/ImgTools/Icon_CorelDraw.png",
+    image:  CorelDrawLogo,
   },
   {
     title: "Canva",
-    image: "src/assets/ImgTools/Icon_Canva.png",
+    image:  CanvaLogo,
   },
 ];
 

@@ -1,19 +1,23 @@
 import { motion } from "framer-motion";
 
+import SiteWillerMockup from '../assets/Projects/SiteWillerMockup.png';
+import MockupSevenMuayThai from '../assets/Projects/Mockup_SevenMuayThai.png';
+import HarmoniaInteriorSite from '../assets/Projects/HarmoniaInterior_Site.png';
+
 const projects = [
   {
     title: "Site Willer Lucoles",
-    image: "src/assets/Projects/SiteWillerMockup.png",
+    image: SiteWillerMockup,
     link: "https://willerlucoles.vercel.app/",
   },
   {
     title: "Site Seven Muay Thai",
-    image: "src/assets/Projects/Mockup_SevenMuayThai.png",
+    image: MockupSevenMuayThai,
     link: "https://sevenmuaythai.com.br",
   },
   {
     title: "Site Harmonia Interior",
-    image: "src/assets/Projects/HarmoniaInterior_Site.png",
+    image: HarmoniaInteriorSite,
     link: "https://harmoniainterior.vercel.app/",
   },
 ];

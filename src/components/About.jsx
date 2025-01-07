@@ -11,14 +11,12 @@ const About = () => {
       transition={{ duration: 3.5 }}
     >      
       <div className="flex flex-col items-center justify-center mt-10">
-
         <h1 className="font-sans text-lg font-medium text-gray-700 text-center">
           Willer Lucoles
         </h1>
         <h1 className="font-sans text-2xl font-extrabold text-black text-center -mt-2">
           Desenvolvedor Web
         </h1>
-
         <div className="line w-full max-w-md h-px bg-gray-300 mt-2"></div>
       </div>
 
