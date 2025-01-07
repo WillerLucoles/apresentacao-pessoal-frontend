@@ -6,8 +6,7 @@ import { mobileMenuLink, mobileMenu } from './Animations/FramerMotion';
 import Logo from '/src/assets/WillerLucoles_Logo.svg';
 
 const links = [
-  { url: "#home", title: "Inicio" },
-  { url: "#about", title: "Sobre mim" },
+  { url: "#About", title: "Sobre mim" },
   { url: "#Skills", title: "Habilidades" },
   { url: "#Projects", title: "Projetos" },
 ];
@@ -22,11 +21,11 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-transparent shadow-md z-50">
+    <header className="fixed top-0 left-0 w-full bg-transparent z-50 md:px-4">
       <div className="mx-auto flex justify-between items-center p-4">
  
         <div className="text-3xl font-bold flex items-center">
-          <a href="#home" onClick={handleLinkClick}>
+          <a href="#Home" onClick={handleLinkClick}>
             <img src={Logo} alt="Logo" className="h-8 mr-2 cursor-pointer" />
           </a>
         </div>
@@ -48,7 +47,7 @@ const Header = () => {
             animate="visible"
             exit="exit"
             variants={mobileMenu}
-            className="fixed top-0 right-0 h-full w-72 bg-gray-800 text-white flex flex-col items-center p-6 z-50"
+            className="fixed top-0 right-0 h-full w-72 bg-black text-white flex flex-col items-center p-6 z-50"
           >
             <button
               onClick={() => setIsOpen(false)}

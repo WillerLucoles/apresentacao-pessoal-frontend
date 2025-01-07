@@ -78,7 +78,7 @@ const Skills = () => {
     >
       <div className="skills-header flex items-center justify-center mt-10">
         <div className="line flex-grow h-px bg-gray-300"></div>
-        <h1 className="title font-sans text-3xl sm:text-4xl font-[1000] text-black px-4">
+        <h1 className="title font-sans text-2xl font-[1000] text-black px-4">
           Minhas Skills
         </h1>
         <div className="line flex-grow h-px bg-gray-300"></div>
