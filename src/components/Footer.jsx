@@ -8,7 +8,7 @@ const Footer = () => {
           <ul className='flex items-center justify-center gap-8'>
             {SocialLinks.map(social => (
               <li key={social.name}>
-                <a href={social.url} target='' rel='noreferrer' className='text-black'>
+                <a href={social.url} target='blank' rel='noreferrer' className='text-black'>
                   {social.logo}
                 </a>
               </li>
