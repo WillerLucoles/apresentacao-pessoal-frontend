@@ -2,12 +2,13 @@ import { useState } from 'react';
 import { HiX, HiMenuAlt3 } from "react-icons/hi";
 import { motion, AnimatePresence } from "framer-motion";
 import SocialLinks from "./SocialLinks"
-import { mobileMenuLink, mobileMenu } from './FramerMotion';
+import { mobileMenuLink, mobileMenu } from './Animations/FramerMotion';
+import Logo from '/src/assets/WillerLucoles_Logo.svg';
 
 const links = [
   { url: "#home", title: "Inicio" },
   { url: "#about", title: "Sobre mim" },
-  { url: "#skills", title: "Habilidades" },
+  { url: "#Skills", title: "Habilidades" },
   { url: "#projects", title: "Projetos" },
 ];
 
@@ -26,7 +27,7 @@ const Header = () => {
  
         <div className="text-3xl font-bold flex items-center">
           <a href="#home" onClick={handleLinkClick}>
-            <img src="/WillerLucoles_Logo.svg" alt="Logo" className="h-8 mr-2 cursor-pointer" />
+            <img src={Logo} alt="Logo" className="h-8 mr-2 cursor-pointer" />
           </a>
         </div>
         

@@ -1,5 +1,6 @@
 import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
+import Skills from './components/Skills.jsx';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <main>
         <Header />
+        <Skills />
         <h1 className='text-black font-bold'>Seja bem vindo! :)</h1>
         <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
         <Footer />
